@@ -1,0 +1,104 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+        iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+         iterate (1)
+        {
+         move();
+        }
+        iterate (3)
+        {
+        turnleft();
+        }
+         move();
+       pickbeeper();
+        iterate (1)
+        {
+        turnleft();
+        }
+        turnoff();
+    }
+}

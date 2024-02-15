@@ -1,0 +1,33 @@
+class program {
+  void turnright(){
+    iterate(3)
+    turnleft();
+    
+  }
+   void avanza-deja (n){
+     iterate (succ(succ((n)))
+    if(frontIsBlocked){
+         turnleft();
+         meve();
+         turnright();
+         move();
+         turnright();
+         move();
+         turnleft();
+         }
+     
+      }
+      else{
+        move();
+     {
+     iterate(pred(pred(n)))
+     putbeeaper();
+    }
+  
+    }
+    program () {
+       avanza-deja(3)
+        turnoff();
+    
+  }
+}
