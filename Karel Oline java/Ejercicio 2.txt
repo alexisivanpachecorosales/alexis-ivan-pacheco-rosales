@@ -1,0 +1,45 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+        turnleft();
+        turnleft();
+        turnleft();
+        move();
+        move();
+        turnleft();
+        move();
+        move();
+        turnleft();
+        move();
+        turnleft();
+        move();
+        turnleft();
+        turnleft();
+        turnleft();
+        move();
+        pickbeeper();
+        turnleft();
+        turnleft();
+        move();
+        turnleft();
+        move();
+        turnleft();
+        turnleft();
+        turnleft();
+        move();
+        turnleft();
+        turnleft();
+        turnleft();
+        move();
+        move();
+        turnleft();
+        turnleft();
+        turnleft();
+        move();
+        move();
+        turnleft();
+        turnleft();
+        turnleft();
+        putbeeper();
+    }
+}

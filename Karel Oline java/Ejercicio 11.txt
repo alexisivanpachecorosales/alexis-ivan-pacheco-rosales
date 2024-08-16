@@ -1,0 +1,19 @@
+class program {
+
+void avansaSinoEsCero(n)  
+{
+  if (iszero(n))
+  {
+    putbeeper();
+  }
+  else
+  {
+    pickbeeper();
+  }
+}
+    program () {
+        // TODO poner codigo aqui
+        avansaSinoEsCero(0);
+        turnoff();
+    }
+}

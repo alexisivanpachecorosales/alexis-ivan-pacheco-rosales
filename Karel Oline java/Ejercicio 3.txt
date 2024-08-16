@@ -1,0 +1,13 @@
+class program {
+    program () {
+        // Ejercisio 3
+        iterate (3)
+        {
+         if (notFacingNorth)
+         {
+          turnleft();
+         }
+        }
+        turnoff();
+    }
+}

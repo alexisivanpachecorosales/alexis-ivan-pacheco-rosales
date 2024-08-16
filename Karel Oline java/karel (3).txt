@@ -1,0 +1,28 @@
+class program {
+void Derecha(){
+turnleft();
+turnleft();
+turnleft();
+}
+void sigeDerecho()
+{
+if (rightIsBlocked && frontIsClear){
+   move();
+  }
+   if (rightIsBlocked && frontIsClear){
+    turnleft();
+  } 
+  if (rightIsClear)
+  {
+    Derecha();
+    move();
+  }
+}
+    program () {
+        // TODO poner codigo aqui
+        while(notNextToABeeper){
+         sigeDerecho();
+        }
+        turnoff();
+    }
+}

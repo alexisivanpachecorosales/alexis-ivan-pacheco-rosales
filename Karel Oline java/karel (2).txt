@@ -1,0 +1,41 @@
+class program {
+void Derecha(){
+turnleft();
+turnleft();
+turnleft();
+if (frontIsClear){
+ move();
+}
+}
+
+void Dloqueado(){
+if (frontIsBlocked)
+{
+  Derecha();
+}
+else
+{
+ move();
+}
+}
+
+void sigeMuroDerecho(){
+ if (frontIsBlocked)
+ {
+   Derecha();
+   Dloqueado();
+ }
+ else
+ {
+ move();
+ }
+}
+    program () {
+        // TODO poner codigo aqui
+        while (noBeepersInBeeperBag)
+        {
+          sigeMuroDerecho();
+        }
+        turnoff();
+    }
+}

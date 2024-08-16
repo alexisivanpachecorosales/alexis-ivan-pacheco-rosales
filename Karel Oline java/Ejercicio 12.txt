@@ -1,0 +1,70 @@
+class program {
+void turnright()
+{
+  iterate (3)
+     turnleft();
+}
+
+void Salir ()
+{
+  turnright();
+  move();
+  move();
+  turnleft();
+}
+
+void Entrada()
+{
+  turnright();
+  move();
+  move();
+  turnright();
+}
+
+void vertical()
+{
+  if (frontIsClear)
+  {
+    move();
+    vertical();
+    if (frontIsBlocked && nextToABeeper)
+    {
+      pickbeeper();
+      turnleft();
+      turnleft();
+      move();
+    }
+    else 
+     move();
+  }
+}
+  
+void Horisontal()
+{
+  if (frontIsClear)
+  {
+    move();
+    Horisontal();
+    if (facingNorth)
+    {
+      turnright();
+      move();
+    }
+    else 
+     move();
+  }
+  else 
+  {
+    turnleft();
+    vertical();
+  }
+}
+  
+    program () {
+        // TODO poner codigo aqui
+        Salir();
+        Horisontal();
+        Entrada();
+        turnoff();
+    }
+}

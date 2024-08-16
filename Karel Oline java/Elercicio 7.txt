@@ -1,0 +1,36 @@
+class program {
+
+void turnright()
+{
+  turnleft();
+  turnleft();
+  turnleft();
+}
+
+void RecojeZunbadores()
+{
+  if (notNextToABeeper)
+   {
+    turnright();
+    move();
+    turnleft();
+    move();
+   }
+   else
+   {
+     pickbeeper();
+     turnright();
+     move();
+     turnleft();
+     move();
+   }
+}
+
+    program () {
+        // TODO poner codigo aqui
+          while (frontIsClear){
+           RecojeZunbadores();
+          }
+        turnoff();
+    }
+}

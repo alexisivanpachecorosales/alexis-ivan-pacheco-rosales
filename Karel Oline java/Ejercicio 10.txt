@@ -1,0 +1,39 @@
+class program {
+
+void turnright()
+{
+  turnleft();
+  turnleft();
+  turnleft();
+}
+
+void mover_dejar (n)
+{
+ iterate( succ(succ(n)))
+ {
+   if (frontIsBlocked)
+   {
+     turnleft();
+       move();
+       turnright();
+       move();
+       turnright();
+       move();
+       turnleft();
+     }
+    
+   else
+   {
+      move();
+   }
+ }
+ iterate(pred(pred(n)))
+ putbeeper();
+}
+
+    program () {
+        // TODO poner codigo aqui
+        mover_dejar(6);
+        turnoff();
+    }
+}
